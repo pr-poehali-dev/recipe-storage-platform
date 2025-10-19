@@ -1,0 +1,13 @@
+{
+  "tests": [
+    {
+      "name": "Get meal plans (requires auth)",
+      "method": "GET",
+      "expectedStatus": 401,
+      "expectedBody": {
+        "error": "string"
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}
